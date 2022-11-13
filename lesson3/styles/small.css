@@ -1,17 +1,17 @@
-/* ALL CONTENT */
+
 * {margin: 0;}
 
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 16px;
-    background-color: #181716;
+    background-color: #02c39a;
     color: #fff;
 }
 
 header, section, footer {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #393433;
+    background-color: #05668d;
 
 }
 
@@ -53,8 +53,8 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #3C3C3C;
-	color: #FFFA4F;
+	background-color: #f0f3bd;
+	color: #000;
     font-weight: 700;
 }
 
@@ -97,7 +97,7 @@ main img {
 
 /* typography.html */
 .font1 {
-    font-family: "Overpass", Helvetica, sans-serif;
+    font-family: "Times new Roman", Helvetica, sans-serif;
     font-size: 2rem;
     margin-bottom: -20px;
 }
