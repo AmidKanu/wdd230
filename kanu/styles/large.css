@@ -1,0 +1,237 @@
+@media (min-width: 930px) {
+  header{
+      flex-direction: column;
+      align-items:flex-start;
+      width: 100%;
+      max-width: none;
+    }
+
+    #hamburgerBtn {display: none;}
+
+    nav ul{
+      display: flex;
+      margin-top: 20px;
+      margin-left: 100px;
+    }
+
+    .logo{
+      order: 1;
+    }
+
+    .social{
+      margin-top: 20px;
+      margin-left: 100px;
+      order: 3;
+    }
+
+    .menu{
+      order: 2;
+    }
+
+    .completeDate{
+      width:100%;
+    }
+
+    .logo-footer {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .logo2{
+      width: 10%;
+    }
+
+    .info{
+      width: 70%;
+    }
+  
+    .footer-address{
+      display: flex;
+      padding: 5%;
+      width: 70%;
+      flex-direction: row;
+
+    }
+  
+    .footer-address-two{
+      width: 30%;
+      padding: 2%;
+     
+    }
+
+    footer{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .name{
+      display: flex;
+    }
+  
+    .showP{
+      display: block;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+
+  .showP1{
+      display: block;
+      margin-left: 5px;
+      margin-right: 5px;
+
+  }
+
+  .footer-two{
+      display: flex;
+  }
+
+  
+  .content{
+      flex-direction: row;
+      width: 100%;
+      height: 630px;
+  }
+
+  .site-column{
+      order: 1;
+      
+  }
+
+  .site-name{
+      order: 2;
+      width: 400px;
+      height: 400px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .site-name-1{
+    top: 40px;
+    left: 20px;
+    font-size: 2rem;
+}
+
+.site-name-2{
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+}
+
+.Release {
+      order: 3;
+      align-self: flex-end;
+      position: absolute;
+      margin-left: 265px;
+      width: 385px;
+      margin-right: 12px;      
+}
+
+  .join{
+    display: block;
+    width: 250px;
+
+    background-color: #eee;
+  margin: 5px;
+  align-content: center;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px 2px #06ac06b0;
+  text-align: center;
+  position: relative;
+  }
+
+  .join a{
+    margin: 0;
+    text-decoration: none;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    padding: 1rem;
+    background-color: #188C69;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #293022;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    top: 10px;
+    left: 15px; 
+    right: 10px;
+    z-index: 1;
+    font-size: 1.2rem;
+  }
+
+  .join p{
+    position: absolute;
+    text-align:center;
+    top: 58px; 
+    right: 20px;
+    left: 10px;
+  }
+
+
+  
+  .event{
+      width: 250px;
+    }
+  
+  .weather{
+      width: 100%;
+      margin-left: 0%;
+    }
+  
+  .spotlight  {
+      order: 4;
+      width: 300px;
+      height: 620px;
+    }
+  
+    .spotlight-three{
+      display: block;
+      width: 92%;
+      height:30%;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+
+    .spotlight-one, .spotlight-two  {
+      width: 92%;
+      margin-left: 8px;
+      margin-right: 8px;
+      height:30%;
+    }
+
+    /* +++++++++++++++++++++++++++++++++++++++++*/
+
+  picture img[data-src] {
+    filter: blur(0.1em);
+  }
+  
+  picture img {
+    filter: blur(0em);
+    transition: filter 2s;
+  }
+
+  form label.sbs{
+    padding: .4rem 0;
+}
+
+.directory{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  overflow: hidden;
+}
+
+.directory section {
+  text-align: justify;
+  align-items:flex-start;
+
+}
+
+.contact-principal{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  width: 100%;
+}
+
+}
