@@ -39,3 +39,5 @@ const imgObserver = new IntersectionObserver((items, imgObserver) =>
 imagesToLoad.forEach(img => {
     imgObserver.observe(img);
 });
+
+
